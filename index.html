@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Request 101</title>
+
+        <link
+            href="https://www.dafontfree.net/embed/ZnV0dXJhLWh2LWJ0LWhlYXZ5JmRhdGEvMjUvZi8xMjU5MTcvRnV0dUh2LnR0Zg"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: "#da373d",
+                            primary: "#1B266F",
+                            yellow: "#E6B534",
+                        },
+                        fontFamily: {
+                            primary: ["Futura Condensed", "serif"],
+                            body: ["futura-hv-bt-heavy", "sans-serif"],
+                        },
+                        backgroundImage: {
+                            header: "url('./assets/images/header.webp')",
+                            form: "url('./assets/images/background form.png')",
+                        },
+                    },
+                },
+            };
+        </script>
+        <style type="text/tailwindcss">
+            @font-face {
+                font-family: "Futura Condensed";
+                font-weight: bold;
+                src: url("../assets/fonts/FuturaExtraBlackCondensedItalicBT.ttf");
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+            <nav>
+                <nav class="bg-primary">
+                    <div
+                        class="max-w-screen-lg mx-auto px-4 py-2 flex justify-between items-center"
+                    >
+                        <a href="/">
+                            <img
+                                src="./assets/images/logo.png"
+                                alt="logo"
+                                class="h-6"
+                            />
+                        </a>
+                        <a href="/achievements" class="mt-1">
+                            <span
+                                class="font-primary font-bold text-2xl text-primary bg-yellow px-4 py-1 hover:bg-yellow/90"
+                            >
+                                SING UP
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <!-- Navigation Bar End -->
+
+        <main class="overflow-hidden">
+            <!-- Start Section: Hero -->
+            <section class="bg-header pt-10 pb-32 bg-bottom bg-cover">
+                <div
+                    class="max-w-screen-lg mx-auto px-4 py-2 flex justify-between items-center"
+                >
+                    <div class="w-full grid grid-cols-2 md:grid-cols-3 gap-y-4">
+                        <div class="col-span-full md:col-span-1">
+                            <h4
+                                class="font-primary text-2xl text-primary text-center md:text-left"
+                            >
+                                SATURDAY, 12 AUGUST 2023 <br />
+                                10 AM WIB
+                            </h4>
+                        </div>
+                        <div
+                            class="col-span-full md:col-span-1 flex justify-center"
+                        >
+                            <img
+                                src="/assets/images/parents session.webp"
+                                alt="parents session"
+                                class="h-14"
+                            />
+                        </div>
+                        <div
+                            class="col-span-full md:col-span-1 flex justify-center gap-6 md:justify-end"
+                        >
+                            <img
+                                src="/assets/images/free.webp"
+                                alt="free"
+                                class="max-h-11 md:max-h-14"
+                            />
+                            <img
+                                src="/assets/images/online.webp"
+                                alt="online"
+                                class="max-h-11 md:max-h-14"
+                            />
+                        </div>
+                        <div
+                            class="mt-8 col-span-full flex flex-col items-center gap-y-5 md:items-start md:relative"
+                        >
+                            <img
+                                src="/assets/images/judul.webp"
+                                alt="judul"
+                                class="w-full max-w-xl object-contain"
+                            />
+                            <img
+                                src="assets/images/aset header.webp"
+                                alt="aset"
+                                class="w-full max-w-sm md:max-w-md md:absolute md:right-0"
+                            />
+                        </div>
+                        <div class="col-span-full mt-10 md:mt-20">
+                            <h2
+                                class="font-primary text-2xl md:text-4xl text-primary text-center"
+                            >
+                                A PARENT'S ULTIMATE GUIDE TO TOP UNIVERSITY
+                                APPLICATION EXCELLENCE
+                            </h2>
+                        </div>
+                        <div
+                            class="mt-4 col-span-full flex flex-col sm:flex-row gap-x-10 gap-y-4"
+                        >
+                            <div class="w-full">
+                                <img
+                                    src="assets/images/speaker.webp"
+                                    alt="speaker"
+                                    class="object-contain w-full mx-auto max-w-[270px] md:max-w-full"
+                                />
+                            </div>
+                            <div class="w-full">
+                                <img
+                                    src="assets/images/speaker.webp"
+                                    alt="speaker"
+                                    class="object-contain w-full mx-auto max-w-[270px] md:max-w-full"
+                                />
+                            </div>
+                            <div class="w-full">
+                                <img
+                                    src="assets/images/speaker.webp"
+                                    alt="speaker"
+                                    class="object-contain w-full mx-auto max-w-[270px] md:max-w-full"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section: Hero -->
+
+            <!-- Start Section: Benefits -->
+            <section class="pb-10">
+                <div
+                    class="max-w-screen-lg mx-auto px-4 py-2 grid grid-cols-1 md:grid-cols-2 gap-10"
+                >
+                    <div class="md:pt-20 pl-4">
+                        <ul
+                            class="list-disc list-outside font-body text-primary text-xl md:text-3xl"
+                        >
+                            <li>
+                                Top university application
+                                <b>requirements and deadlines</b> break down.
+                            </li>
+                            <li>
+                                Expert guidance for creating an
+                                <b>optimal application timeline.</b>
+                                <img
+                                    src="assets/images/last minute tips.webp"
+                                    alt="last minute tips"
+                                    class="sm:max-w-xs max-w-[220px]"
+                                />
+                            </li>
+                            <li>
+                                Personalized <b>action plans</b> for each grade
+                                level.
+                            </li>
+                            <li>
+                                Inspiring
+                                <b>success stories of parents</b> supporting
+                                their children's top university admissions.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img
+                            src="./assets/images/benefits.webp"
+                            alt="benefits"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- End Section: Benefits -->
+
+            <!-- Start Section: Form -->
+            <section class="py-40 bg-form bg-cover">
+                <div
+                    class="max-w-screen-lg mx-auto px-4 py-2 flex flex-col md:flex-row"
+                >
+                    <div class="md:w-3/5">
+                        <!-- Form Here -->
+                    </div>
+                    <div class="hidden md:block w-2/5">
+                        <img
+                            src="assets/images/collage 2.webp"
+                            alt="collage 2"
+                            class="w-full"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- End Section: Form -->
+
+            <!-- Start Section: Comming Soon -->
+            <section class="py-10">
+                <div class="max-w-screen-lg mx-auto px-4 py-2 flex flex-col">
+                    <h2
+                        class="font-primary text-2xl sm:text-4xl text-primary text-center"
+                    >
+                        MAXIMIZE YOUR CHILD’S TOP UNIVERSITY APPLICATION AROUND
+                        THE WORLD!
+                    </h2>
+                    <img
+                        src="assets/images/coming soon title.webp"
+                        alt="comming soon"
+                        class="mt-10"
+                    />
+                    <div class="mt-10 grid grid-cols-3 gap-2 md:gap-20">
+                        <div class="col-span-1">
+                            <img
+                                src="assets/images/regular talk-10.webp"
+                                alt="regular talk 10"
+                            />
+                        </div>
+                        <div class="col-span-1">
+                            <img
+                                src="assets/images/regular talk-11.webp"
+                                alt="regular talk 11"
+                            />
+                        </div>
+                        <div class="col-span-1">
+                            <img
+                                src="assets/images/regular talk-12.webp"
+                                alt="regular talk 12"
+                                class="px-2"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section: Comming Soon -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-primary py-10">
+            <div
+                class="max-w-screen-lg mx-auto px-4 py-2 flex flex-col justify-center"
+            >
+                <h2
+                    class="font-body font-black text-2xl sm:text-4xl text-yellow text-center"
+                >
+                    ABOUT US
+                </h2>
+                <p
+                    class="mt-4 font-body text-base sm:text-xl text-white max-w-3xl mx-auto text-center"
+                >
+                    As an independent university consultant based in Jakarta,
+                    Indonesia, we aim to ensure that our students flourish in
+                    their respective career path they aspire they have in the
+                    future.
+                </p>
+                <div class="grid grid-cols-2 gap-8 mt-10 sm:grid-cols-3">
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_0.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >100% Students placed at target universities
+                        </span>
+                    </div>
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_1.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >More than 40 School <br />
+                            Clients
+                        </span>
+                    </div>
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_2.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >More than 1,000 Essays Reviewed
+                        </span>
+                    </div>
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_3.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >More than 50 Corporate Partners
+                        </span>
+                    </div>
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_4.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >150+ Point SAT Score Improvement
+                        </span>
+                    </div>
+                    <div
+                        class="cols-span-1 flex flex-col justify-center items-center p-4"
+                    >
+                        <img
+                            src="assets/images/about-us/about us icons_5.png"
+                            alt="about us"
+                            class="mb-4 w-16 h-16 object-contain"
+                        />
+                        <span
+                            class="font-body text-base sm:text-xl text-white text-center"
+                            >More than 1,500 Event Participants
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </body>
+</html>
